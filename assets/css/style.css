@@ -7,6 +7,22 @@
     background-size: cover;
 }
 
+.btn-primary{
+  background-color: #FFC30B;
+  border:none;
+  color: black;
+}
+
+.btn-primary:hover{
+  background-color: #FDCF2A;
+  color: black;
+}
+
+.row a{
+  text-decoration: none;
+  color:black;
+}
+
 /*** Footer ***/
 .footer .btn.btn-social:hover {
     color: var(--primary);
