@@ -7,13 +7,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <div class="container-fluid">
-    <a class="navbar-brand fs-4" href="#">Italian Express</a>
+    <a class="navbar-brand fs-2" style="font-family: 'Redressed', cursive;" href="#">Italian Express</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -24,9 +25,9 @@
             Flavour
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Meat Pizza</a></li>
-            <li><a class="dropdown-item" href="#">Vegeterian Pizza</a></li>
-            <li><a class="dropdown-item" href="#">Double Cheese</a></li>
+            <li><a class="dropdown-item" href="meat.html">Meat Pizza</a></li>
+            <li><a class="dropdown-item" href="vegitable.html">Vegeterian Pizza</a></li>
+            <li><a class="dropdown-item" href="cheese.html">Double Cheese</a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -47,7 +48,7 @@
       <p class="text-white mb-4 pb-2">Get the best pizza in town since 1975.
          You can never go wrong with a mouth watering classic Italian Pizza,
           taking you closer to Paris. Order online now and get delivered to your doors step</p>
-      <a href="" class="btn btn-primary py-sm-3 px-sm-5 me-3">Order Online</a>
+      <a href="#" class="btn btn-primary py-sm-3 px-sm-5 me-3">Order Online</a>
       </div>
       <div class="col-lg-6 text-center overflow-hidden">
         <img class="img-fluid" src="assets/img/circle_pizza-modified.png" alt="">
@@ -59,6 +60,7 @@
     <div class="container">
         <div class="row g-4">
             <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+              <a href="meat.html">
                 <div class="service-item rounded">
                     <div class="p-4">
                         <img class="img-fluid" src="assets/img/meat.jpg" alt="">
@@ -66,8 +68,10 @@
                         <p>Meaty flavour with extra cheese</p>
                     </div>
                 </div>
+              </a>
             </div>
             <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+              <a href="vegitable.html">
                 <div class="service-item rounded">
                     <div class="p-4">
                         <img class="img-fluid" src="assets/img/Vegeterian.jpg" alt="">
@@ -75,8 +79,10 @@
                         <p>Full Vegeterian with no meat but only vegies</p>
                     </div>
                 </div>
+              </a>
             </div>
             <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+              <a href="cheese.html">
                 <div class="service-item rounded">
                     <div class="p-4">
                         <img class="img-fluid" src="assets/img/Double cheese.jpg" alt="">
@@ -84,6 +90,7 @@
                         <p>Double cheese flavour with sausage and paparoni</p>
                     </div>
                 </div>
+              </a>
             </div>
             </div>
 
